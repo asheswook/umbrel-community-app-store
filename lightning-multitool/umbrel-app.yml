@@ -18,14 +18,13 @@ repo: https://github.com/asheswook/lightning-multitool
 support: https://github.com/asheswook/lightning-multitool/issues
 
 submitter: Pororo
-submission: https://github.com/getumbrel/umbrel-hello-world-app
+submission: https://github.com/asheswook/lightning-multitool-umbrel
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
-  테스트
+  Nostr settings are no longer required.
 dependencies:
   - lightning
 path: ""
