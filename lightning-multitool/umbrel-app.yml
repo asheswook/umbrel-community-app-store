@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: lightning-multitool
 name: Lightning Multitool
-version: "0.1.12-beta-0.0.11"
+version: "0.1.13-beta-0.0.11"
 tagline: "A collection of tools for your Lightning Node."
 
 category: bitcoin
@@ -24,7 +24,8 @@ gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
-  Nostr settings are no longer required.
+  Add CORS headers to LNURL-pay and NIP-05 endpoints so browser-based
+  Lightning wallets (PWAs) can fetch them cross-origin.
 dependencies:
   - lightning
 path: ""

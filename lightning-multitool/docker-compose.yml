@@ -19,7 +19,7 @@ services:
         ipv4_address: ${APP_LMT_GUI_IP}
 
   core:
-    image: ghcr.io/asheswook/lightning-multitool:v0.1.12-beta@sha256:63f123fba1ca19a2e08cf2d1dab2a2be55203f06664519750e5d14ba96b9336c
+    image: ghcr.io/asheswook/lightning-multitool:v0.1.13-beta@sha256:5b93530b2d84a9de00498534524ea5efef2d235bc2ea5388fe9475a4d84bddf0
     user: root
     deploy:
       restart_policy:
